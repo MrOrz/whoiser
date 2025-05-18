@@ -1,4 +1,4 @@
-import { toASCII } from 'punycode';
+import { toASCII } from 'punycode/';
 export function splitStringBy(string, by) {
     return [string.slice(0, by), string.slice(by + 1)];
 }
